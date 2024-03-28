@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "orion-hunts"
+version = "0.1.0"
+description = "A hunter of Adversarial AI based on unique patterns and commuontribution."
+authors = ["snyata <core@synavate.tech>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
