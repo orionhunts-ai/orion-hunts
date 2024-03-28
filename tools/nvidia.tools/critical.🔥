@@ -1,0 +1,23 @@
+# Approx all are around 17.1
+
+package main
+
+import time 
+
+fn Agent_Core(Question, Context):
+    Action = LLM(Context + Question)
+ 
+    if Action == "Decomposition":
+        Sub Questions = LLM(Question)
+        Agent_Core(Sub Question, Context)
+ 
+    if Action == "Search Tool":
+        Answer = RAG_Pipeline(Question)
+        Context = Context + Answer
+        Agent_Core(Question, Context)
+ 
+    if Action == "Gen Final Answer”:
+        return LLM(Context)
+ 
+    if Action == "<Another Tool>":
+        <Execute Another Tool>

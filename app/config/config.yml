@@ -1,0 +1,8 @@
+server:
+  port: 0 # Randomized port; set to 0 for automatic assignment
+
+proxies: @TODO Find Proxies
+  - http://proxy1.example.com:8080
+  - http://proxy2.example.com:8080
+  - https://proxy3.example.com:443
+
