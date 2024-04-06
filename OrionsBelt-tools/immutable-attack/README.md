@@ -1,0 +1,2 @@
+# Immutable Adversarial Attack Logs
+Description: Store detailed logs of attempted adversarial attacks on models in an immutable blockchain ledger. This data aids in the analysis of attack patterns and the development of defense mechanisms.

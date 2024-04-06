@@ -2,3 +2,5 @@
 env/
 _int/
 docs/
+_private
+*private 

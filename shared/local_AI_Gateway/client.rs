@@ -2,7 +2,7 @@ use async_openai::{Client, config::OpenAIConfig};
 
 let client = client::new();
 
-let api_key = "sz-";
+let api_key = "";
 let config = OpenAIConfig::default();
 let client = Client::with_config(config);
 

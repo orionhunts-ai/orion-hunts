@@ -1,3 +1,4 @@
+*.env
 .env
 env/
 _int/
@@ -6,4 +7,6 @@ docs/
 orion-hunts.code-workspace
 .DS_Store
 _private
+OrionSuite
+.general 
 
